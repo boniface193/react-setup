@@ -159,8 +159,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 👤 **Dennis**
 
-- GitHub: [Jeddaa](https://github.com/boniface193)
-- Twitter: [@\_jeddaah](https://twitter.com/)
+- GitHub: [github](https://github.com/boniface193)
+- Twitter: [twitter](https://twitter.com/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in//)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -216,6 +216,6 @@ I would like to thank all the people that contributed in this project .
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
