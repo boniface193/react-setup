@@ -5,7 +5,7 @@
   height: 30px;
 }
 
-input {
+input[type="text"] {
   border: none;
   text-align: right;
   color: #fff;
