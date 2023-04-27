@@ -1,0 +1,45 @@
+.show-input {
+  background-color: #9b9ca798;
+  padding: 8px;
+  width: calc(75px * 4);
+  height: 30px;
+}
+
+input {
+  border: none;
+  text-align: right;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.p-normal {
+  width: 79px;
+  height: 45px;
+}
+
+.p-abnormal {
+  width: calc(79px * 2);
+  height: 45px;
+}
+
+.btn {
+  border: 1px solid #e0e0eaa7;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-orange {
+  background-color: orange;
+}
