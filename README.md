@@ -87,7 +87,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test` <a name="run-test"></a>
+### `npm test` <a name="run-tests"></a>
 
 To check for syntax error, run the following command:
 
@@ -141,7 +141,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment <a name="triangular_flag_on_post-deploymen"></a>
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
