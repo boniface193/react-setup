@@ -1,3 +1,10 @@
+.d-flex {
+  display: flex;
+}
+
+.mr-3 {
+  margin-right: 45px;
+}
 .show-input {
   background-color: #9b9ca798;
   padding: 8px;
