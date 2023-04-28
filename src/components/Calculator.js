@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/Calculate';
+import Quotes from './Quote';
 
 function Calculator() {
   const [calcData, setCalcData] = useState({
@@ -34,39 +35,42 @@ function Calculator() {
   };
 
   return (
-    <section className="container">
-      <input type="text" className="show-input" value={initialValue} readOnly />
-      <aside>
-        <div>
-          <CalBtn characterStr="AC" bgColor="bg-white btn p-normal" />
-          <CalBtn characterStr="+/-" bgColor="bg-white btn p-normal" />
-          <CalBtn characterStr="%" bgColor="bg-white btn p-normal" />
-          <CalBtn characterStr="+" bgColor="bg-orange btn p-normal" />
-        </div>
-        <div>
-          <CalBtn incrementNumber={7} bgColor="bg-white btn p-normal" />
-          <CalBtn incrementNumber={8} bgColor="bg-white btn p-normal" />
-          <CalBtn incrementNumber={9} bgColor="bg-white btn p-normal" />
-          <CalBtn characterStr="x" bgColor="bg-orange btn p-normal" />
-        </div>
-        <div>
-          <CalBtn incrementNumber={4} bgColor="bg-white btn p-normal" />
-          <CalBtn incrementNumber={5} bgColor="bg-white btn p-normal" />
-          <CalBtn incrementNumber={6} bgColor="bg-white btn p-normal" />
-          <CalBtn characterStr="-" bgColor="bg-orange btn p-normal" />
-        </div>
-        <div>
-          <CalBtn incrementNumber={1} bgColor="bg-white btn p-normal" />
-          <CalBtn incrementNumber={2} bgColor="bg-white btn p-normal" />
-          <CalBtn incrementNumber={3} bgColor="bg-white btn p-normal" />
-          <CalBtn characterStr="÷" bgColor="bg-orange btn p-normal" />
-        </div>
-        <div>
-          <CalBtn characterStr="0" bgColor="bg-white btn p-abnormal" />
-          <CalBtn characterStr="." bgColor="bg-white btn p-normal" />
-          <CalBtn characterStr="=" bgColor="bg-orange btn p-normal" />
-        </div>
-      </aside>
+    <section className="d-flex">
+      <div className="mr-3">
+        <input type="text" className="show-input" value={initialValue} readOnly />
+        <aside>
+          <div>
+            <CalBtn characterStr="AC" bgColor="bg-white btn p-normal" />
+            <CalBtn characterStr="+/-" bgColor="bg-white btn p-normal" />
+            <CalBtn characterStr="%" bgColor="bg-white btn p-normal" />
+            <CalBtn characterStr="+" bgColor="bg-orange btn p-normal" />
+          </div>
+          <div>
+            <CalBtn incrementNumber={7} bgColor="bg-white btn p-normal" />
+            <CalBtn incrementNumber={8} bgColor="bg-white btn p-normal" />
+            <CalBtn incrementNumber={9} bgColor="bg-white btn p-normal" />
+            <CalBtn characterStr="x" bgColor="bg-orange btn p-normal" />
+          </div>
+          <div>
+            <CalBtn incrementNumber={4} bgColor="bg-white btn p-normal" />
+            <CalBtn incrementNumber={5} bgColor="bg-white btn p-normal" />
+            <CalBtn incrementNumber={6} bgColor="bg-white btn p-normal" />
+            <CalBtn characterStr="-" bgColor="bg-orange btn p-normal" />
+          </div>
+          <div>
+            <CalBtn incrementNumber={1} bgColor="bg-white btn p-normal" />
+            <CalBtn incrementNumber={2} bgColor="bg-white btn p-normal" />
+            <CalBtn incrementNumber={3} bgColor="bg-white btn p-normal" />
+            <CalBtn characterStr="÷" bgColor="bg-orange btn p-normal" />
+          </div>
+          <div>
+            <CalBtn characterStr="0" bgColor="bg-white btn p-abnormal" />
+            <CalBtn characterStr="." bgColor="bg-white btn p-normal" />
+            <CalBtn characterStr="=" bgColor="bg-orange btn p-normal" />
+          </div>
+        </aside>
+      </div>
+      <Quotes />
     </section>
   );
 }
