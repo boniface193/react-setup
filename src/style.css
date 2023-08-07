@@ -1,3 +1,11 @@
+.d-flex {
+  display: flex;
+}
+
+.mr-3 {
+  margin-right: 45px;
+}
+
 .show-input {
   background-color: #9b9ca798;
   padding: 8px;
@@ -5,7 +13,7 @@
   height: 30px;
 }
 
-input {
+input[type="text"] {
   border: none;
   text-align: right;
   color: #fff;
@@ -42,4 +50,40 @@ button {
 
 .bg-orange {
   background-color: orange;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #313131;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: #524cc0;
+}
+
+.show-cal {
+  display: flex;
+}
+
+.push-right {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-right: 40px;
 }
